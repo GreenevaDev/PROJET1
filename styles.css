@@ -1,0 +1,64 @@
+body {
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background-size: cover;
+}
+#photo {
+  background-image:url('IMAGES/image3.jpg');
+}
+.barDeNavigation{
+  background-color:#050404
+}
+.navigationDuSlide{
+  padding:15px;
+  cursor:pointer;
+}
+.ligne{
+  background-color:#eee;
+  margin:5px;
+  height:5px;
+  width:30px;
+  border-radius: 5px;
+}
+.login-container {
+  background-color: #5749;
+  padding: 20px;
+  border-radius: 15px;
+  box-shadow: 0 0 20px #28a745;
+  width: 300px;
+  text-align: center;
+  flood-opacity: 10px;
+}
+.login-container h1 {
+  margin-bottom: 20px;
+  font-size: 24px;
+}
+.login-container input[type="text"],
+.login-container input[type="password"] {
+  width: 80%;
+  padding: 10px;
+  margin: 10px 10px;
+  border: 1px solid #f0f0f0;
+  border-radius: 15px;
+}
+.login-container button {
+  background-color: #28a745;
+  color: #fff;
+  border: none;
+  padding: 10px 30px;
+  border-radius: 15px;
+  cursor: pointer;
+  box-shadow: 0 0 10 #28a745;
+}
+.login-container button:hover {
+  background-color: black;
+}
+.error-message{
+  color: red;
+  font-size: 14px;
+  margin: 5px 0;
+}
